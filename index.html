@@ -1,0 +1,105 @@
+	<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+    <title>REMAKE_GOOGLE.COM</title>
+  </head>
+  
+  <body>
+
+    <!-- Header de la page (lien Gmail, Images, etc. ) -->
+    <header>
+
+        <ul>
+          <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+
+          <li><a href="https://www.google.fr/imghp?hl=fr&ogbl">Images</a></li>
+
+          <li><button id="boutonApplis"><img src="google_applis.png" alt="icône des applications Google" title="Applications Google"/></button></li>
+
+          <li><button id="boutonConnexion">Connexion</button>
+        </ul>
+
+    </header>
+    <!-- Fin du header de la page (lien Gmail, Images, etc. ) -->
+
+
+
+
+
+
+    <!-- Réalisation de la partie centrale (logo Google + formulaire) -->
+    <div id="partieCentrale">
+
+      
+      <div> <!-- Bloc contenant uniquement le logo Google -->
+        <img src="googlelogo_color_272x92dp.png" alt="Logo Google" />
+      </div>
+
+
+      <form method="post" action="recherche.php"> <!-- Bloc du formulaire : zone de recherche + 2 boutons -->
+
+        <p id="zoneSaisie">
+          <label for="saisieUtilisateur"><img src="loupe.png" alt="image de la loupe" class="imagesSaisie" /></label>
+          <input type="text" name="saisieUtilisateur" id="saisieUtilisateur" size="55" title="Rechercher" />
+          <img src="microGoogle.png" alt="image de la saisie vocale" title="Utiliser la recherche vocale" class="imagesSaisie" id="imageMicro" />
+        </p>
+
+        <p>
+          <input type="submit" value="Recherche Google" name="boutonRechercher" id="boutonRechercher" class="boutonFormulaire" />
+
+          <input type="button" value="J'ai de la chance" name="boutonChance" id="boutonChance" class="boutonFormulaire" />
+        </p>
+
+      </form> <!-- Fin du bloc du formulaire : zone de recherche + 2 boutons -->
+
+
+
+    </div> <!-- Fin de la partieCentrale -->
+
+
+
+
+
+
+    <!-- Réalisation du pied de page -->
+    <footer>
+
+      <div id="footerPays">
+        <p>France</p>
+      </div>
+
+
+      <div id="footerLiensGlobal">
+
+        <div>
+          <ul>
+            <li><a href="https://about.google/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">&Agrave; propos</a></li>
+            <li><a href="https://www.google.com/intl/fr_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Entreprise</a></li>
+            <li><a href="https://google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a></li>
+          </ul>
+        </div>
+
+
+        <div>
+            <a href="https://sustainability.google/intl/fr/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img src="feuille.png" alt="image d'une feuille" /> Neutre en carbone depuis 2007</a>
+        </div>
+
+
+        <div>
+          <ul>
+            <li><a href="https://support.google.com/legal/answer/3110420?hl=fr&fg=1">Signaler un contenu inapproprié</a></li>
+            <li><a href="https://support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1">Info consommateurs</a></li>
+            <li><a href="https://policies.google.com/privacy?hl=fr&fg=1">Confidentialité</a></li>
+            <li><a href="https://policies.google.com/terms?hl=fr&fg=1">Conditions</a></li>
+            <li><a href="#">Paramètres</a></li>
+          </ul>
+        </div>
+        
+      </div>
+
+    </footer> <!-- Fin du pied de page -->
+  </body>
+</html>
